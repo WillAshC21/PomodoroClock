@@ -1,0 +1,62 @@
+body {
+    background-color: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pomodoro-clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    width: 30%;
+    background-color: white;
+    box-shadow: 10px 20px 40px 10px;
+}
+
+#start {
+    background-color: green;
+}
+
+#reset {
+    background-color: blue;
+}
+
+#stop {
+    background-color: red;
+}
+
+#start, #reset, #stop {
+    padding: 10px 15px;
+    font-size: 27px;
+    color: #ffffff;
+    transition: width 30s;
+}
+
+#start:hover {
+    width: 200px;
+}
+#stop:hover {
+    width: 200px;
+}
+
+.work-button, .break-button {
+    width: 25%;
+    height: 40px;
+    border-color: transparent;
+    background-color: #1a75ff;
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.break-button {
+    margin-top: 20px;
+}
+
+#timer {
+    font-size: 40px;
+}
